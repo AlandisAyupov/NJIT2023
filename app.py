@@ -38,11 +38,11 @@ def to_datetime(df,date_col='Date',frmt='%Y-%m-%d'):
     df[date_col] =pd.to_datetime(df[date_col],errors='coerce')
     df['year'] = df[date_col].dt.year
     
-oil_spill_gdf = gpd.GeoDataFrame(oil_spill_df, 
-                                 geometry=gpd.points_from_xy(oil_spill_df['Longitude'], oil_spill_df['Latitude'],))
+# oil_spill_gdf = gpd.GeoDataFrame(oil_spill_df, 
+#                                  geometry=gpd.points_from_xy(oil_spill_df['Longitude'], oil_spill_df['Latitude'],))
 
 
-oil_spill_gdf.crs = "EPSG:4326"
+# oil_spill_gdf.crs = "EPSG:4326"
 
 get_geom(plotting_file,'Total_Pieces_L')
 
@@ -76,10 +76,10 @@ folium.CircleMarker(location= (loc1[0][0],loc1[0][1]),
                   color='black',
                   radius=15).add_to(m_1)
 
-folium.GeoJson(oil_spill_df,
-               name='Oil Spill Data',
-               tooltip=folium.GeoJsonTooltip(fields=['Longitude', 'Latitude'])  # Specify the fields you want to show in the tooltip
-               ).add_to(m_1)
+# folium.GeoJson(oil_spill_df,
+#                name='Oil Spill Data',
+#                tooltip=folium.GeoJsonTooltip(fields=['Longitude', 'Latitude'])  # Specify the fields you want to show in the tooltip
+#                ).add_to(m_1)
 
 m_1
 
