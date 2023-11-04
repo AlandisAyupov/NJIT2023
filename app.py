@@ -6,7 +6,7 @@ import os
 #mapping
 import geopandas as gpd
 import folium
-from streamlit_folium import st_folium
+from streamlit_folium import st_folium, folium_static
 from folium.plugins import MarkerCluster,HeatMap,HeatMapWithTime
 import branca.colormap as colormap
 from collections import defaultdict
@@ -81,7 +81,6 @@ folium.CircleMarker(location= (loc1[0][0],loc1[0][1]),
 #                tooltip=folium.GeoJsonTooltip(fields=['Longitude', 'Latitude'])  # Specify the fields you want to show in the tooltip
 #                ).add_to(m_1)
 
-m_1
+folium_static(m_1)
 
-st_data = st_folium(m_1, width=725)
-
+# st_data = st_folium(m_1, width=725)
