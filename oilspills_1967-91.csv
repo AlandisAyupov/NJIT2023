@@ -1,4 +1,4 @@
-Number,Oil Spill Name,Location,Latitiude,Longitude,Date,Barrels,Impact Regions,Organisms Affected,Source
+Number,Oil Spill Name,Location,Latitude,Longitude,Date,Barrels,Impact Regions,Organisms Affected,Source
 1,Al Rawdatain,"Genoa, Italy","44,4","8,8",29.10.77,7350,"No shoreline impacts, Oil slick 2 miles between Cogoleto and Varazza",x,NOAA/ HMRAD
 2,Alvenus,"Calcasieu River bar channel, 11 miles SE of Cameron, Louisiana, USA","2,958,333","-93,25",30.07.84,65000,"movement westward, High Island, Bolivar Peninsula, 90% of Galveston's West Beach affected","Probably several dead crabs, rays, and fish",NOAA/ HMRAD
 3,Amazon Venture,"Savannah River, Garden City, Georgia, USA","4,058,333","-7,386,667",04.12.86,11900,Approximately 25 miles of the Savannah River and its tributaries,Approx 36-48 oiled birds (mainly cormorants),NOAA/ HMRAD
@@ -95,7 +95,7 @@ Number,Oil Spill Name,Location,Latitiude,Longitude,Date,Barrels,Impact Regions,O
 94,Torrey Canyon,"Lands End, England","50,05","-473,333",18.03.67,860000,"foreshores of Guernsey, French beaches.","estimated 25,000 birds died, thousands of oiled birds, hermit crab species disappeared",NOAA/ HMRAD
 95,Trinimar Marine Well 327,"Gulf of Paria, Venezuela","10,5",-62,08.08.73,36650,beaches from Irois Bay to Los Gallos Point,x,NOAA/ HMRAD
 96,UMTB 283,"Aleutian Islands, Alaska","5,476,667","-158,3",26.12.88,47620,x,x,NOAA/ HMRAD
-97,Urquiola,"La Coruña, Spain","4,336,667","-838,333",12.05.76,733000,"bays of Rias de La Coruna, Rias Area, and Rias Betanzos, nearly 215 kilometers of the northwestern Spanish coast","local shellfish stocks, mortality of Cockle (Cerastoderma edule), gulls and ducks",NOAA/ HMRAD
+97,Urquiola,"La Coruï¿½a, Spain","4,336,667","-838,333",12.05.76,733000,"bays of Rias de La Coruna, Rias Area, and Rias Betanzos, nearly 215 kilometers of the northwestern Spanish coast","local shellfish stocks, mortality of Cockle (Cerastoderma edule), gulls and ducks",NOAA/ HMRAD
 98,U.S. Strategic Petroleum Reserve,"West Hackberry, Louisiana","2,998,333","-9,336,667",21.09.78,72000,Black Lake,x,NOAA/ HMRAD
 99,Virgin Islands Water and Power Authority,"Christiansted, St. Croix, U.S. Virgin Islands","17,75","-6,466,667",18.09.89,14070,sand beaches west of the facility,x,NOAA/ HMRAD
 100,"V882, V883, V884, V885","Mile 179.0 Upper Mississippi River, St. Louis, Missouri, USA","3,866,667","-90,25",02.04.83,13212,"between miles 179 and 168, 155.1 and 168 UMR, mile 155 UMR on the Missouri side",x,NOAA/ HMRAD

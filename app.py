@@ -39,7 +39,7 @@ def to_datetime(df,date_col='Date',frmt='%Y-%m-%d'):
     df['year'] = df[date_col].dt.year
     
 oil_spill_gdf = gpd.GeoDataFrame(oil_spill_df, 
-                                 geometry=gpd.points_from_xy(oil_spill_df['Longtitude'], oil_spill_df['Latitude'],))
+                                 geometry=gpd.points_from_xy(oil_spill_df['Longitude'], oil_spill_df['Latitude'],))
 
 
 oil_spill_gdf.crs = "EPSG:4326"
